@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Scratchpad</title>
+
+    <link rel="stylesheet" href="chrome_extnsn.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+
+            <div class="logo">
+                📝
+            </div>
+
+            <div class="heading">
+
+                <h1>Study Scratchpad</h1>
+
+                <p>
+                    Capture ideas without breaking your study flow.
+                </p>
+
+            </div>
+
+        </header>
+
+        <!-- Input Area -->
+
+        <section class="input-section">
+
+            <textarea
+                id="note-input"
+                placeholder="Type a quick note..."
+                rows="3"
+                maxlength="300"
+            ></textarea>
+
+            <button id="add-note-btn">
+                + Add Note
+            </button>
+
+        </section>
+
+        <!-- Counter -->
+
+        <section class="info-bar">
+
+            <span id="note-count">
+                📝 Notes (0)
+            </span>
+
+        </section>
+
+        <!-- Notes -->
+
+        <section class="notes-section">
+
+            <ul id="notes-list">
+
+                <!-- Notes added using JavaScript -->
+
+            </ul>
+
+        </section>
+
+        <!-- Footer -->
+
+        <footer>
+
+            <button id="clear-all-btn">
+
+                🗑 Clear All Notes
+
+            </button>
+
+        </footer>
+
+    </div>
+
+    <!-- Toast -->
+
+    <div id="toast">
+
+        Note Copied!
+
+    </div>
+
+    <script src="chrome_extensn.js"></script>
+
+</body>
+
+</html>

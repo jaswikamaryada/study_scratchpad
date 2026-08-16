@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Study Scratchpad",
+    "description": "Quickly capture study notes and save useful tabs while learning.",
+    "action": {
+        "default_popup": "chrome_extnsn.html",
+        "default_icon": "my_photo.jpg"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
